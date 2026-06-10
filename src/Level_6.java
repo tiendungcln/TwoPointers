@@ -4,6 +4,9 @@ public class Level_6 {
     // Xóa phần tử trùng nhau
     // Cho mảng đã sort: [1,1,2,2,3,3,4]
     // Kết quả: [1,2,3,4]
+    // Remove Duplicates:
+    // fast bắt đầu từ 1
+    // (vì đã dùng arr[0] làm phần tử đầu tiên của kết quả)
 
     public static int[] removeDuplicates(int[] arr){
 
