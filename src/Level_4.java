@@ -1,4 +1,5 @@
 public class Level_4 {
+    // Đếm số cặp có tổng bằng target
     // Cho: arr = [1,2,3,4,5]
     // target = 6
     // Kết quả:
@@ -28,7 +29,7 @@ public class Level_4 {
 
     public static void main(String[] args){
 
-        int[] arr = {1, 2, 3, 4, 6};
+        int[] arr = {1, 2, 3, 4, 5};
         int target = 6;
 
         findPairsSum(arr, target);
